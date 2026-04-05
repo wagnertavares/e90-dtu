@@ -224,7 +224,7 @@ LEFT_FIELDS: List[Tuple] = [
     ("p", "parity",  "UART Parity/Frame",  PARITY_OPTS),
     ("r", "airrate", "Air Data Rate",      AIR_OPTS),
     ("c", "channel", "RF Channel",         CHAN_OPTS),
-    ("w", "power",   "TX Power",           POWER_OPTS),
+    ("v", "power",   "TX Power",           POWER_OPTS),
 ]
 RIGHT_FIELDS: List[Tuple] = [
     ("s", "subpk",   "Sub-packet Size",    SUBPK_OPTS),
